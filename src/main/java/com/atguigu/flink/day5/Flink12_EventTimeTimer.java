@@ -37,7 +37,7 @@ public class Flink12_EventTimeTimer {
 
                     @Override
                     public void onTimer(long timestamp, OnTimerContext ctx, Collector<String> out) throws Exception {
-                        System.out.println("定时器被触发了呀hhh.....");
+                        System.out.println("定时器被触发了呀hhh1234.....");
                     }
                 })
                 .print();
